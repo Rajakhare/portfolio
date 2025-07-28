@@ -10,9 +10,6 @@ Welcome to the repository for my personal portfolio website! This project showca
 * [Setup and Installation](#setup-and-installation)
 * [Usage](#usage)
 * [Project Structure](#project-structure)
-* [Live Demo](#live-demo)
-* [Contact](#contact)
-* [License](#license)
 
 ## About
 
@@ -33,7 +30,7 @@ This portfolio website serves as a central hub to present my work and provide in
 * **Downloadable Resume:** Easy access to my professional resume.
 * **Contact Form/Information:** Multiple ways for visitors to get in touch.
 * **Smooth Navigation:** Intuitive and easy-to-use navigation menu.
-* [Add any other specific features you have, e.g., animations, dark mode, blog section]
+
 
 ## Technologies Used
 
@@ -42,7 +39,6 @@ This project is built using standard web technologies:
 * **HTML5:** For structuring the content of the website.
 * **CSS3:** For styling and layout, including responsive design.
 * **JavaScript (ES6+):** For interactive elements and dynamic content.
-* [Add any specific CSS frameworks, JS libraries, or other tools you used, e.g., Bootstrap, Tailwind CSS, React, jQuery, GSAP]
 
 ## Usage
 
@@ -56,6 +52,4 @@ portfolio/
 ├── index.html        # Main HTML file for the website
 ├── style.css         # Main CSS file for styling
 ├── all.js            # Main JavaScript file for interactivity
-├── Raj_Akhare_Backend_CV.pdf # My professional resume/CV
-├── [your_image_file_name].jpg # An image used in the portfolio (e.g., profile picture, project screenshot)
 └── README.md         # This README file
