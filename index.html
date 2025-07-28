@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perosnel Portfolio Website</title>
+
+  <!-- Bootstrap CDN for CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+  <!-- Bootstrap CDN for icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+  <!-- CSS Linked -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Stylish Modern Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-white uppercase-logo" href="#">RA</a>
+
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-4">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        </ul>
+      </div>
+
+      <div class="d-none d-lg-block">
+        <a href="#contact" class="btn btn-danger rounded-pill px-4">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero/Home Section -->
+  <section class="d-flex align-items-center justify-content-center text-center" id="home" style="height: 100vh; background: radial-gradient(circle at top, #1f1f1f, #121212); color: white;">
+    <div>
+      <h1 class="display-4 fw-bold">Hi, I'm <span class="text-primary">Raj Akhare</span></h1>
+      <p class="lead">Full Stack Developer | Python & Django Enthusiast</p>
+      <div class="mt-4">
+        <a href="#projects" class="btn btn-primary btn-lg me-2">View my Work</a>
+        <a href="Raj_Akhare_Resume.pdf" download class="btn btn-outline-light btn-lg">Download Resume</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <div class="row justify-content-center">
+      
+        <!-- Bio -->
+        <div class="col-md-8 text-center">
+          <p>
+            I'm <strong>Raj Akhare</strong>, a Computer Science graduate passionate about full stack development, especially using <strong>Python and Django</strong>. I've built several projects including a Hospital Management System and Student Feedback System. I'm always eager to learn new technologies and contribute to impactful projects.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">My Skills</h2>
+      <div class="row text-center">
+
+        <!-- Skill Item -->
+        <div class="col-md-3 mb-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title">Python</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Item -->
+        <div class="col-md-3 mb-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title">Java</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Item -->
+        <div class="col-md-3 mb-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title">MYSQL</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Item -->
+        <div class="col-md-3 mb-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title">Django</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Item -->
+        <div class="col-md-3 mb-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title">JDBC Connectivity</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Item -->
+        <div class="col-md-3 mb-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title">HTML / CSS / JavaScript</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Item -->
+        <div class="col-md-3 mb-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Item -->
+        <div class="col-md-3 mb-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title">Git & Github</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Item -->
+        <div class="col-md-3 mb-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title">Power BI</h5>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-5 bg-light">
+          <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+
+              <!-- Project 1: Hospital Management System -->
+              <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Hospital Management System</h5>
+                    <p class="card-text">
+                      A web application to manage patients, doctors, and appointments. Built using Django, MySQL, and Bootstrap.
+                    </p>
+                    <a href="#" class="btn btn-sm btn-primary">Show Images</a>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 2: Student Feedback System -->
+              <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Student Feedback System</h5>
+                    <p class="card-text">
+                      A Feedback system build with Django, giving Feedback to the teacher and monitor performance.
+                    </p>
+                    <a href="#" class="btn btn-sm btn-primary" target="_blank">Show Images</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 2: E-Commerce Website-->
+              <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">E-Commerce Website</h5>
+                    <p class="card-text">
+                      A web platform for students to submit feedback and for faculty to view and analyze it. Built using Django, MySQL.
+                    </p>
+                    <a href="#" class="btn btn-sm btn-primary" target="_blank">Show Images</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 2: Student Management System -->
+              <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Student Management System</h5>
+                    <p class="card-text">
+                      A web platform for students to submit feedback and for faculty to view and analyze it. Built using Django, MySQL.
+                    </p>
+                    <a href="#" class="btn btn-sm btn-primary" target="_blank">Show Images</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-5">
+          <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row">
+
+              <!-- Contact Info -->
+              <div class="col-md-5 mb-4">
+                <h5>Email:</h5>
+                <p>rajakhare929@gmail.com</p>
+
+                <h5>Phone:</h5>
+                <p>+91-7000763106</p>
+
+                <h5>Location:</h5>
+                <p>Bhopal, Madhya Pradesh, India</p>
+
+                <!-- Social Links -->
+                <div class="mt-4">
+                  <a href="https://www.github.com/in/Raj_Akhare" class="me-3 text-dark"><i class="bi bi-github"> Github</i></a>
+                  <a href="https://www.linkedin.com/in/raj-akhare" class="me-3 text-dark"><i class="bi bi-linkedin"> Linkedin</i></a>
+                </div>
+              </div>
+
+              <!-- Contact Form (frontend only) -->
+              <div class="col-md-7">
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                  </div>
+                  
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="text" class="form-control" id="email" placeholder="Enter you email">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Write your message..."></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="bg-dark text-white py-3">
+          <div class="container text-center">
+            <p class="mb-1">&copy; 2025 Raj Akhare, All rights reserved.</p>
+            <small>
+              Made using HTML, CSS, Bootstrap & JavaScript
+            </small>
+          </div>
+        </footer>
+        
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Bootstrap CDN for JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+  <!-- Javacript Linked -->
+  <script src="all.js"></script>
+</body>
+</html>
